@@ -1,1 +1,85 @@
-Meine Gedanken
+import React from "react";
+import { motion } from "framer-motion";
+import { Map, Compass, BookOpen } from "lucide-react";
+
+const categories = [
+  {
+    title: "Golfreisen",
+    text: "Entdecke kuratierte Premium-Golfreisen weltweit – automatisch aktualisiert.",
+    icon: Map,
+    link: "/golfreisen",
+  },
+  {
+    title: "Destinationen",
+    text: "Erkunde die schönsten Golfdestinationen der Welt – von Spanien bis Südafrika.",
+    icon: Compass,
+    link: "/destinationen",
+  },
+  {
+    title: "Magazin",
+    text: "Inspiration, Tipps und exklusive Stories aus der Welt des Golfreisens.",
+    icon: BookOpen,
+    link: "/magazin",
+  },
+];
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.1 },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: "easeOut" },
+  },
+};
+
+export default function CategorySection() {
+  return (
+    <section id="kategorien" className="py-20 px-6 md:px-12 lg:px-20 bg-white">
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="grid grid-cols-1 md:grid-cols-3 gap-8"
+      >
+        {categories.map((cat, index) => {
+          const Icon = cat.icon;
+          return (
+            <motion.a
+              key={index}
+              variants={itemVariants}
+              href={cat.link}
+              className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 p-7 flex flex-col"
+            >
+              <Icon
+                size={32}
+                strokeWidth={1.5}
+                className="text-forest mb-6 group-hover:scale-105 transition-transform duration-500"
+              />
+
+              <h3 className="text-[14px] uppercase tracking-[0.2em] font-medium text-forest mb-3">
+                {cat.title}
+              </h3>
+
+              <p className="text-[16px] font-light text-graphite/70 leading-relaxed mb-6">
+                {cat.text}
+              </p>
+
+              <span className="mt-auto text-[11px] uppercase tracking-[0.15em] font-medium border-b border-forest/30 group-hover:border-forest transition-all duration-500">
+                Ansehen
+              </span>
+            </motion.a>
+          );
+        })}
+      </motion.div>
+    </section>
+  );
+}
