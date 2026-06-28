@@ -1,3 +1,128 @@
+Alles klar, Robert — ich mache dir jetzt eine kompakte, saubere, perfekt speicherbare Zusammenfassung aller wichtigen Punkte, die wir für TOUR GOLF definiert haben.
+Das ist dein Master‑Dokument, dein Fundament.
+Damit kannst du jederzeit wieder einsteigen, egal ob wir später mit Bass arbeiten oder an der Automatisierung weiterbauen.
+Ich halte es präzise, klar, strukturiert — genau so, wie du es brauchst.
+---
+⭐ TOUR GOLF – Master‑Zusammenfassung (Stand 28.06.2026)
+🟩 1. Hauptkategorien (Navigation)
+GOLFREISEN
+DESTINATIONEN
+MAGAZIN
+KONTAKT
+Diese vier Kategorien bilden die komplette Struktur des Portals.
+---
+🟩 2. Ziel von TOUR GOLF
+Ein Premium‑Golfreise‑Portal, das:
+die besten Golfreisen der Welt zeigt
+automatisch aktualisiert wird
+automatisch neue Resorts findet
+automatisch Partnerangebote erkennt
+automatisch Affiliate‑Links setzt
+passiv Geld verdient
+nur kritische Inhalte von dir freigegeben werden müssen
+---
+🟩 3. Struktur „Golfreisen“ (Geldmaschine)
+Übersicht:
+Top‑Reisen (automatisch sortiert)
+Kategorien / Themenwelten
+Destinationen
+Resort der Woche
+Affiliate‑Highlights
+Detailseite:
+Hero‑Bild
+Kurzinfo‑Block
+Beschreibung
+Highlights
+Preise & Angebote
+Galerie
+Resort‑Details
+Karte & Umgebung
+„Warum dieses Resort?“
+Affiliate‑Optimierung (unsichtbar)
+---
+🟩 4. Automatisierungslogik
+Vollautomatisch (90 %):
+Resort‑Updates
+Preise
+Greenfees
+Hotelverfügbarkeit
+Wetter
+Bewertungen
+Bilder
+SEO
+Broken‑Links
+Sortierung
+Partner‑Auswahl
+Affiliate‑Optimierung
+Resort der Woche
+Themenwelten
+Destinationen
+Manuelle Freigabe (10 %):
+neue Hauptkategorien
+Premium‑Resorts
+Design‑System
+Startseiten‑Hero
+große Artikel
+neue Partner
+Branding‑Elemente
+---
+🟩 5. Datenquellen (APIs & Partner)
+Hotels:
+Expedia Rapid API
+Booking.com Partner API
+Golfreisen‑Partner:
+Global Golf
+OLIMAR
+DER TOUR
+Golfbreaks
+Greenfees:
+Anolla
+GolfNow / GolfPass
+Wetter:
+OpenWeather API
+Bewertungen:
+TripAdvisor API
+Bilder:
+Expedia
+Booking
+Partner
+Resort‑Websites
+Karten:
+Google Maps API
+Affiliate‑Tracking:
+Partner‑IDs
+Deeplinks
+Provisionstabellen
+Tracking‑Parameter
+---
+🟩 6. Automatische Einnahmen
+TOUR GOLF verdient Geld über:
+Hotelbuchungen
+Golfreise‑Pakete
+Greenfee‑Reservierungen
+Equipment (Amazon)
+Flüge (Skyscanner/Expedia)
+TOUR GOLF wählt automatisch:
+👉 den Partner mit der höchsten Provision UND der besten Conversion
+und zeigt dem Besucher genau diesen Link.
+---
+🟩 7. Nächster Schritt
+Du hast gesagt:
+„Dann starten wir mit Bass.“
+Perfekt — jetzt, wo die komplette TOUR‑GOLF‑Struktur sauber gespeichert ist, können wir ohne Risiko mit Bass weitermachen.
+Sag einfach:
+„Bass starten“
+und ich gehe direkt in den Bass‑Modus und baue dir die Prompts, die du brauchst.
+
+
+
+
+👉 BASE Prompt 2 – Reise‑Detailseite
+👉 BASE Prompt 3 – Destinationen Übersicht
+👉 BASE Prompt 4 – Magazin Übersicht
+👉 BASE Prompt 5 – Startseite Feinschliff
+
+
 import React from "react";
 import { motion } from "framer-motion";
 import { Map, Compass, BookOpen } from "lucide-react";
